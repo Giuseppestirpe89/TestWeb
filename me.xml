@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="me.xsl"?>
+<catalog>
+ <games>
+     <title>Fifa 15</title>
+     <company>EASports</company>
+     <category> Sport </category>
+     <price>74.99</price>
+     <year>2015</year>
+ </games>
+ <games>
+     <title>Rugby World Cup</title>
+     <company>IRB</company>
+     <category> Sport </category>
+     <price>40.99</price>
+     <year>2015</year>
+  </games>
+  <games>
+     <title>Mad Max</title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>69.99</price>
+     <year>2015</year>
+ </games>
+ <games>
+     <title>Mad Max</title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>69.99</price>
+     <year>2015</year>
+ </games>
+ <games>
+     <title>LEGO </title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>64.99</price>
+     <year>2014</year>
+</games>
+<games>
+     <title>DESTINY</title>
+     <company>ACTIVISION </company>
+     <category> Adventure </category>
+     <price>79.99</price>
+     <year>2014</year>
+</games>
+<games>
+     <title>LEGO </title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>64.99</price>
+     <year>2014</year>
+</games>
+
+</catalog>
