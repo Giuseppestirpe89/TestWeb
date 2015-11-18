@@ -34,7 +34,7 @@ function submitForm(){
 
 function formSuccess(){
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Message Submitted!");
 }
 
 function formError(){
@@ -59,9 +59,9 @@ $(function(){
     });
     $('#catalog').on('click', function(){
         console.log('cool');
-       $.post('/test', function(data){
-           console.log(data);
-           $('#innertarget').append(data);
-       })
+        $.post('/test', function(data){
+            console.log(data);
+            $('#innertarget').append(data);
+        });
     });
 });
