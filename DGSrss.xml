@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>DGSrss</title>
+<link></link>
+<description>This is a live feed of the latest movie releases, TV show releases, music releases and much more from the entertainment world!!</description>
+<item>
+<title>Latest Movie Releases!</title>
+<link>http://www.imdb.com/movies-in-theaters/</link>
+<guid>http://www.imdb.com/movies-in-theaters/</guid>
+<pubDate>Wed, 27 Nov 2013 15:17:32 GMT </pubDate>
+<description>These are the latest movie releases that are in cinemas near you right now!</description>
+</item>
+<item>
+<title>Latest TV show Releases!</title>
+<link>Direct URL to content</link>
+<guid>Unique ID for content. Copy the URL again</guid>
+<pubDate>Wed, 27 Nov 2013 15:17:32 GMT </pubDate>
+<description>These are the latest movie releases that are available right now!</description>
+</item>
+<item>
+<title>Latest Music Releases!</title>
+<link>http://www.comingsoon.net/tv</link>
+<guid>http://www.comingsoon.net/tv</guid>
+<pubDate>Wed, 27 Nov 2013 15:17:32 GMT </pubDate>
+<description>These are the latest music releases that are available right now!</description>
+</item>
+</channel>
+</rss>
