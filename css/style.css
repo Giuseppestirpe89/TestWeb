@@ -76,15 +76,18 @@ padding-bottom:20px;
 
 #innertarget{
 	
-	margin-left:195px;
+	margin-left:50px;
 }
 
 .btn-danger{
 	
-	margin-left: 95px;
+	margin-left: 65px;
 	
 }
-
+.table{
+	
+	width:85%;
+}
 
 
 

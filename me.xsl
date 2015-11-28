@@ -4,15 +4,19 @@
   <html>
   <body>
   <h2>My Games Collection</h2>
-  <table border="2" padding="10px">
+  <table class ="table" border="2" padding="5px">
     <tr bgcolor="#9acd32">
-      <th width="150">Title</th>
-      <th width="150">Price</th>
+      <th width="200">Title</th>
+      <th width="200">Price</th>
+       <th width="200">Company</th>
+       <th width="200">Categories</th>
     </tr>
     <xsl:for-each select="catalog/games">
     <tr>
       <td ><xsl:value-of select="title"/></td>
       <td><xsl:value-of select="price"/></td>
+      <td><xsl:value-of select ="company"/></td>
+       <td><xsl:value-of select ="category"/></td>
     </tr>
     </xsl:for-each>
   </table>

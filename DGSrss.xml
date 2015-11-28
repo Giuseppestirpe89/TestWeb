@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>DGSrss | The latest entertainment news from around the world!!</title>
+        <description>This is a live feed of the latest movie releases, TV show releases, game releases and much more from the entertainment world!!</description>
+        <item>
+            <title>Latest Movie Releases!</title>
+            <link>http://www.imdb.com/movies-in-theaters/</link>
+            <guid>http://www.imdb.com/movies-in-theaters/</guid>
+            <pubDate>Tues, 24 Nov 2015 15:17:32 GMT </pubDate>
+            <description>These are the latest movie releases that are in cinemas near you right now!</description>
+        </item>
+        <item>
+            <title>Latest and upcoming TV show Releases!</title>
+            <link>http://when-will.net/tv-series.html</link>
+            <guid>http://when-will.net/tv-series.html</guid>
+            <pubDate>Tues, 24 Nov 2015 15:17:32 GMT </pubDate>
+            <description>These are the latest movie releases that are available right now!</description>
+        </item>
+        <item>
+            <title>Latest Game Releases!</title>
+            <link>http://www.gamespot.com/new-games/</link>
+            <guid>http://www.gamespot.com/new-games/</guid>
+            <pubDate>Tues, 24 Nov 2015 15:17:32 GMT </pubDate>
+            <description>These are the latest game releases that are available right now!</description>
+        </item>
+        <item>
+            <title>Is John Snow coming back?? </title>
+            <link>http://www.wired.com/2015/11/game-of-thrones-jon-snow-poster/</link>
+            <guid>http://www.wired.com/2015/11/game-of-thrones-jon-snow-poster/</guid>
+            <pubDate>Tues, 24 Nov 2015 15:17:32 GMT </pubDate>
+            <description>The latest Game of Thrones poster has left us with a glimmer of hope for the return of John Snow!</description>
+        </item>
+        <item>
+            <title>Check out the latest Battlefront mod!</title>
+            <link>http://www.gamespot.com/articles/star-wars-battlefront-mod-makes-graphics-look-even/1100-6432563/</link>
+            <guid>http://www.gamespot.com/articles/star-wars-battlefront-mod-makes-graphics-look-even/1100-6432563/</guid>
+            <pubDate>Tues, 24 Nov 2015 15:17:32 GMT </pubDate>
+            <description>This new mod bring us the closest yet to movie quality gaming!</description>
+        </item>
+    </channel>
+</rss>

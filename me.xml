@@ -23,7 +23,7 @@
      <year>2015</year>
  </games>
  <games>
-     <title>Mad Max</title>
+     <title>Harry Potter</title>
      <company>WB games</company>
      <category> Adventure </category>
      <price>69.99</price>
@@ -44,7 +44,42 @@
      <year>2014</year>
 </games>
 <games>
-     <title>LEGO </title>
+     <title>LEGO 2</title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>64.99</price>
+     <year>2014</year>
+</games>
+ <games>
+     <title>Mad Max</title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>69.99</price>
+     <year>2015</year>
+ </games>
+ <games>
+     <title>Mad Max 2</title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>69.99</price>
+     <year>2015</year>
+ </games>
+ <games>
+     <title>LEGO 4</title>
+     <company>WB games</company>
+     <category> Adventure </category>
+     <price>64.99</price>
+     <year>2014</year>
+</games>
+<games>
+     <title>DESTINY 5</title>
+     <company>ACTIVISION </company>
+     <category> Adventure </category>
+     <price>79.99</price>
+     <year>2014</year>
+</games>
+<games>
+     <title>LEGO 3</title>
      <company>WB games</company>
      <category> Adventure </category>
      <price>64.99</price>
