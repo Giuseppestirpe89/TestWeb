@@ -1,3 +1,5 @@
+// code modified from reff http://techlaboratory.net/smartcart/demo
+
 (function($){
     $.fn.smartCart = function(options) {
         var options = $.extend({}, $.fn.smartCart.defaults, options);
