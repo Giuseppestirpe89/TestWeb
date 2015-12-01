@@ -5,7 +5,7 @@
     <body>
       <h2>My Games Collection</h2>
       <table class="table" border="2" padding="5px">
-        <tr bgcolor="#9acd32">
+        <tr bgcolor="#00FEFE">
           <th width="200">Title</th>
           <th width="200">Company</th>
           <th width="200">Categories</th>

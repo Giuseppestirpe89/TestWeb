@@ -862,7 +862,17 @@ ul.info li {
     color: #4d4d4d;
 }
 
-<<<<<<< HEAD
+.grayscale{ 
+  
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
 ul.info li a {
     color: #4d4d4d;
 }
@@ -881,16 +891,3 @@ ul.info li.mail {
     background: url(../img/icons.png) left -107px no-repeat;
     padding-top: 25px;
 }
-=======
-.grayscale{ 
-  
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
-}
-
-.grayscale:hover { 
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
->>>>>>> ecee4dc1df292b25e2fc18fb2c99406c7ce9a2a6
