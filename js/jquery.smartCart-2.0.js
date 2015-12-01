@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 // code modified from reff http://techlaboratory.net/smartcart/demo
 
->>>>>>> 9c6577ae3390c5f665edc3c7036701dc46993412
 (function($){
     $.fn.smartCart = function(options) {
         var options = $.extend({}, $.fn.smartCart.defaults, options);
@@ -43,10 +40,7 @@
                 var labelCheckout = 'Checkout';
                 
                 var messageConfirmRemove = 'Do you want to remove "_PRODUCTNAME_" from cart?'; //  _PRODUCTNAME_ will be replaced with actula product name
-<<<<<<< HEAD
-=======
                 
->>>>>>> 9c6577ae3390c5f665edc3c7036701dc46993412
                 var messageCartEmpty = "Your cart is empty";
                 var messageProductEmpty = "No products to display";
                 var messageProductAddError = "Product cannot add";
