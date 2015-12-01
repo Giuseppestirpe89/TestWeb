@@ -664,3 +664,14 @@ padding-bottom:20px;
     top:1px;
 }
 
+.grayscale{ 
+  
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
