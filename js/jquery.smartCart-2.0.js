@@ -40,6 +40,7 @@
                 var labelCheckout = 'Checkout';
                 
                 var messageConfirmRemove = 'Do you want to remove "_PRODUCTNAME_" from cart?'; //  _PRODUCTNAME_ will be replaced with actula product name
+                
                 var messageCartEmpty = "Your cart is empty";
                 var messageProductEmpty = "No products to display";
                 var messageProductAddError = "Product cannot add";
