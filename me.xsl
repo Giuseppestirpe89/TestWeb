@@ -7,9 +7,9 @@
       <table class="table" border="2" padding="5px">
         <tr bgcolor="#9acd32">
           <th width="200">Title</th>
-          <th width="200">Price</th>
           <th width="200">Company</th>
           <th width="200">Categories</th>
+          <th width="200">Price</th>
         </tr>
         <xsl:for-each select="catalog/games">
           <tr>
@@ -17,19 +17,18 @@
               <xsl:value-of select="title" />
             </td>
             <td>
-              <xsl:value-of select="price" />
-            </td>
-            <td>
               <xsl:value-of select="company" />
             </td>
             <td>
               <xsl:value-of select="category" />
             </td>
+            <td>
+              <xsl:value-of select="price" />
+            </td>
           </tr>
         </xsl:for-each>
       </table>
     </body>
-
     </html>
   </xsl:template>
 </xsl:stylesheet>
