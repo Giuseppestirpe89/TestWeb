@@ -19,6 +19,15 @@ router.get('/test', function(req, res) {
   var xsl = xslt.readXsltFile('./me.xsl');
   res.send(xslt.transform(xsl, xml, []));
 });
+
+//get for xml info on index.html from indexInfo.xsl
+router.get('/test2', function(req, res) {
+  var xslt = require("node_xslt");
+  var xml = xslt.readXmlFile('./indexInfo.xml');
+  var xsl = xslt.readXsltFile('./indexInfo.xsl');
+  res.send(xslt.transform(xsl, xml, []));
+});
+
 router.post('/cart', function(req, res) {
   function appendJSON(obj){
     var cartJSON = JSON.stringify(obj);

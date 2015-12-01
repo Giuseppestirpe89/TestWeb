@@ -1,4 +1,12 @@
+
+$( document ).ready(function() {
+    
+    $.get('/test2', function(data) {
+    $(".tester").append(data)
+    });
+
 $(function() {
+
 
     $("#click-button").on('click', firstClick)
 
@@ -24,4 +32,4 @@ $(function() {
     }
 });
 
-
+});
