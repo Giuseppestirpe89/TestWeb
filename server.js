@@ -1,14 +1,16 @@
 var http = require('http');
 var path = require('path');
 var express = require('express');
-var router = express();
-var fs = require('fs');
-var server = http.createServer(router);
 var bodyParser = require('body-parser');
+var fs = require('fs')
+var router = express();
+var server = http.createServer(router);
 
 router.use(express.static(__dirname));
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
+
+
 
 router.get('/', function(req, res) {
   res.sendFile('index.html');
