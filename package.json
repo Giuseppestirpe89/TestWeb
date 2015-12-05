@@ -9,13 +9,10 @@
     "async": "~0.2.8",
     "body-parser": "^1.14.1",
     "express": "~3.2.4",
+    "feed": "^0.2.6",
     "fs": "0.0.2",
-    "socket.io": "~0.9.14",
-<<<<<<< HEAD
+    "js2xmlparser": "^1.0.0",
     "node_xslt": "~0.1.9",
-    "js2xmlparser": "~1.0.0"
-=======
-    "node_xslt": "~0.1.9"
->>>>>>> 5ef2a21322ff1b86a011e6aa0ba8673df6ef4ae8
+    "socket.io": "~0.9.14"
   }
 }

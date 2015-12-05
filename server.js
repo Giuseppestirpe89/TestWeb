@@ -50,6 +50,52 @@ router.get('/get/html', function(req, res) {
   res.send(result);
   
 });
+//RSS
+router.get('/rss', function(req, res){
+  var Feed = require('feed');
+var feed = new Feed({
+    title:          'DGSrss | The latest entertainment news from around the world!!',
+    description:    'This is a live feed of the latest movie releases, TV show releases, game releases and much more from the entertainment world!!',
+    link:           'https://testweb-shambo.c9users.io',
+    image:          'http://example.com/image.png',
+    copyright:      'All rights reserved 2015',
+    
+});
+    feed.item({
+        title:        'Latest Movie Releases!' ,
+        link:         'http://www.imdb.com/movies-in-theaters/',
+        description:  'These are the latest movie releases that are in cinemas near you right now!',
+      
+    });
+     feed.item({
+        title:        'Latest and upcoming TV show Releases!!' ,
+        link:         'http://when-will.net/tv-series.html',
+        description:  'These are the latest TV show releases that are available right now!',
+      
+    });
+     feed.item({
+        title:        'Latest Game Releases!' ,
+        link:         'http://www.gamespot.com/new-games/',
+        description:  'These are the latest game releases that are available right now!',
+      
+    });
+     feed.item({
+        title:        'Is John Snow coming back??' ,
+        link:         'http://www.wired.com/2015/11/game-of-thrones-jon-snow-poster/',
+        description:  'The latest Game of Thrones poster has left us with a glimmer of hope for the return of John Snow!',
+      
+    });
+     feed.item({
+        title:        'Check out the latest Battlefront mod!' ,
+        link:         'http://www.gamespot.com/articles/star-wars-battlefront-mod-makes-graphics-look-even/1100-6432563/',
+        description:  'This new mod bring us the closest yet to movie quality gaming!!',
+      
+    });
+res.send(cleanRSS(feed.render('rss-2.0')));
+});
+var cleanRSS = function(xml) {
+        return xml.replace(/<content:encoded\/>/g, '');
+    };
 
 // POST request to add to JSON & XML files
 router.post('/post/json', function(req, res) {
@@ -102,3 +148,4 @@ server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() 
   var addr = server.address();
   console.log("Server listening at", addr.address + ":" + addr.port);
 });
+
