@@ -105,4 +105,25 @@
 		<price>don</price>
 		<year>don</year>
 	</game>
+	<game>
+		<title>pep</title>
+		<company>pep</company>
+		<category>pep</category>
+		<price>pep</price>
+		<year>pep</year>
+	</game>
+	<game>
+		<title>shane</title>
+		<company>shane</company>
+		<category>shane</category>
+		<price>shane</price>
+		<year>shane</year>
+	</game>
+	<game>
+		<title>john</title>
+		<company>JOHN</company>
+		<category>JOHN</category>
+		<price>jhon</price>
+		<year>john</year>
+	</game>
 </catalog>
