@@ -2,22 +2,18 @@ var http = require('http');
 var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
-<<<<<<< HEAD
 var fs = require('fs');
 var js2xmlparser = require("js2xmlparser");
 var xslt = require('node_xslt');
 
-
-=======
 var fs = require('fs')
->>>>>>> 5ef2a21322ff1b86a011e6aa0ba8673df6ef4ae8
+
 var router = express();
 var server = http.createServer(router);
 
 router.use(express.static(__dirname));
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
-
 
 
 router.get('/', function(req, res) {
