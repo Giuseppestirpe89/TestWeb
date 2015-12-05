@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="indexInfo.xsl" ?>
      <info>
-          <games>
+          <sum>
                <gamehead>Games</gamehead>
                <gamebody>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</gamebody>
-          </games>
+          </sum>
+          <sum>
+               <gamehead>Movies</gamehead>
+               <gamebody>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</gamebody>
+          </sum>
+          <sum>
+               <gamehead>DVDs</gamehead>
+               <gamebody>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</gamebody>
+          </sum>
+
      </info>
