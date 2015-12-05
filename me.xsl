@@ -11,7 +11,7 @@
           <th width="200">Categories</th>
           <th width="200">Price</th>
         </tr>
-        <xsl:for-each select="catalog/games">
+        <xsl:for-each select="catalog/game">
           <tr>
             <td>
               <xsl:value-of select="title" />

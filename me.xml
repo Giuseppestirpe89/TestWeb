@@ -1,88 +1,108 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="me.xsl" ?>
-     <catalog>
-          <games>
-               <title>Fifa 15</title>
-               <company>EASports</company>
-               <category> Sport </category>
-               <price>74.99</price>
-               <year>2015</year>
-          </games>
-          <games>
-               <title>Rugby World Cup</title>
-               <company>IRB</company>
-               <category> Sport </category>
-               <price>40.99</price>
-               <year>2015</year>
-          </games>
-          <games>
-               <title>Mad Max</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>69.99</price>
-               <year>2015</year>
-          </games>
-          <games>
-               <title>Harry Potter</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>69.99</price>
-               <year>2015</year>
-          </games>
-          <games>
-               <title>LEGO </title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>64.99</price>
-               <year>2014</year>
-          </games>
-          <games>
-               <title>DESTINY</title>
-               <company>ACTIVISION </company>
-               <category> Adventure </category>
-               <price>79.99</price>
-               <year>2014</year>
-          </games>
-          <games>
-               <title>LEGO 2</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>64.99</price>
-               <year>2014</year>
-          </games>
-          <games>
-               <title>Mad Max</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>69.99</price>
-               <year>2015</year>
-          </games>
-          <games>
-               <title>Mad Max 2</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>69.99</price>
-               <year>2015</year>
-          </games>
-          <games>
-               <title>LEGO 4</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>64.99</price>
-               <year>2014</year>
-          </games>
-          <games>
-               <title>DESTINY 5</title>
-               <company>ACTIVISION </company>
-               <category> Adventure </category>
-               <price>79.99</price>
-               <year>2014</year>
-          </games>
-          <games>
-               <title>LEGO 3</title>
-               <company>WB games</company>
-               <category> Adventure </category>
-               <price>64.99</price>
-               <year>2014</year>
-          </games>
-     </catalog>
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<game>
+		<title>Fifa 15</title>
+		<company>EASports</company>
+		<category> Sport </category>
+		<price>74.99</price>
+		<year>2015</year>
+	</game>
+	<game>
+		<title>Rugby World Cup</title>
+		<company>IRB</company>
+		<category> Sport </category>
+		<price>40.99</price>
+		<year>2015</year>
+	</game>
+	<game>
+		<title>Mad Max</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>69.99</price>
+		<year>2015</year>
+	</game>
+	<game>
+		<title>Harry Potter</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>69.99</price>
+		<year>2015</year>
+	</game>
+	<game>
+		<title>LEGO </title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>64.99</price>
+		<year>2014</year>
+	</game>
+	<game>
+		<title>DESTINY</title>
+		<company>ACTIVISION </company>
+		<category> Adventure </category>
+		<price>79.99</price>
+		<year>2014</year>
+	</game>
+	<game>
+		<title>LEGO 2</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>64.99</price>
+		<year>2014</year>
+	</game>
+	<game>
+		<title>Mad Max</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>69.99</price>
+		<year>2015</year>
+	</game>
+	<game>
+		<title>Mad Max 2</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>69.99</price>
+		<year>2015</year>
+	</game>
+	<game>
+		<title>LEGO 4</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>64.99</price>
+		<year>2014</year>
+	</game>
+	<game>
+		<title>DESTINY 5</title>
+		<company>ACTIVISION </company>
+		<category> Adventure </category>
+		<price>79.99</price>
+		<year>2014</year>
+	</game>
+	<game>
+		<title>LEGO 3</title>
+		<company>WB games</company>
+		<category> Adventure </category>
+		<price>64.99</price>
+		<year>2014</year>
+	</game>
+	<game>
+		<title>23213</title>
+		<company>232323</company>
+		<category>232323</category>
+		<price>232323</price>
+		<year>2323</year>
+	</game>
+	<game>
+		<title>Lego</title>
+		<company>activi</company>
+		<category>adven</category>
+		<price>sport</price>
+		<year>22</year>
+	</game>
+	<game>
+		<title>don</title>
+		<company>don</company>
+		<category>don</category>
+		<price>don</price>
+		<year>don</year>
+	</game>
+</catalog>

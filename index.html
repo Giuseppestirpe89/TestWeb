@@ -9,6 +9,25 @@
 		<script type="text/javascript" src="js/script.js"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<script>
+    $(document).ready(function() {
+       $.getJSON('/get/json', function(result) {
+        var tr;
+        $.each(result, function(i, field) {
+          tr = $('<tr/>');
+          tr.attr('class', field.games);
+          tr.append('<td>' + field.title + '</td>');
+          tr.append('<td>' + field.company + '</td>');
+          tr.append('<td>' + field.category + '</td>');
+          tr.append('<td>' + field.price + '</td>');
+           tr.append('<td>' + field.year + '</td>');
+          $('me.xml').append(tr);
+
+        });
+      });
+    });
+    
+      </script>
 	</head>
 	<body>
 		<div class="navbar-static-top navbar-inverse" id="home">
@@ -144,6 +163,16 @@
 		</div>
 		<div class="target">
 			<div id="innertarget">
+		   <li ng-repeat="user in roster" ng-bind="user">
+          <form method="post" id="form" action="/post/json">
+            <input type="text" name="title">
+            <input type="text" name="company">
+            <input type="text" name="category">
+            <input type="text" name="price">
+            <input type="text" name="year">
+            <input type="submit" value="Submit">
+          </form>  
+          </li>
 			</div>
 			</br>
 			<input type="submit" value="Load" id="click-button" class="btn btn-danger" />
