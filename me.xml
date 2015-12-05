@@ -126,4 +126,18 @@
 		<price>jhon</price>
 		<year>john</year>
 	</game>
+	<game>
+		<title>aa</title>
+		<company>aa</company>
+		<category>aa</category>
+		<price>aa</price>
+		<year>aa</year>
+	</game>
+	<game>
+		<title>s</title>
+		<company>ss</company>
+		<category>s</category>
+		<price>s</price>
+		<year>s</year>
+	</game>
 </catalog>
