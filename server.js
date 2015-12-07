@@ -17,7 +17,6 @@ router.use(bodyParser.urlencoded({
 }));
 router.use(bodyParser.json());
 
-
 router.get('/', function(req, res) {
   res.sendFile('index.html');
 });
@@ -37,7 +36,7 @@ router.get('/test2', function(req, res) {
   var xsl = xslt.readXsltFile('./indexInfo.xsl');
   res.send(xslt.transform(xsl, xml, []));
 });
-
+// mikhail in class reference adding item into xml file and json
 // HTML produced by XSL Transformation
 router.get('/get/html', function(req, res) {
 
@@ -50,6 +49,43 @@ router.get('/get/html', function(req, res) {
 
   // Render the result
   res.send(result);
+
+});
+
+// POST request to add to JSON & XML files
+router.post('/post/json', function(req, res) {
+
+  // Function to read in a JSON file, add to it & convert to XML
+  function appendJSON(obj) {
+
+    // Read in a JSON file
+    var JSONfile = fs.readFileSync('me.json', 'utf8');
+
+    // Parse the JSON file in order to be able to edit it 
+    var JSONparsed = JSON.parse(JSONfile);
+
+    // Add a new record into game array within the JSON file    
+    JSONparsed.game.push(obj);
+
+    // Beautify the resulting JSON file
+    var JSONformated = JSON.stringify(JSONparsed, null, 4);
+
+    // Write the updated JSON file back to the system 
+    fs.writeFileSync('me.json', JSONformated);
+
+    // Convert the updated JSON file to XML     
+    var XMLformated = js2xmlparser("catalog", JSONformated);
+
+    // Write the resulting XML back to the system
+    fs.writeFileSync('me.xml', XMLformated);
+
+  }
+
+  // Call appendJSON function and pass in body of the current POST request
+  appendJSON(req.body);
+  console.log(req.body);
+  // Re-direct the browser back to the page, where the POST request came from
+  res.redirect('back');
 
 });
 
@@ -100,43 +136,6 @@ var cleanRSS = function(xml) {
   return xml.replace(/<content:encoded\/>/g, '');
 };
 
-// POST request to add to JSON & XML files
-router.post('/post/json', function(req, res) {
-
-  // Function to read in a JSON file, add to it & convert to XML
-  function appendJSON(obj) {
-
-    // Read in a JSON file
-    var JSONfile = fs.readFileSync('me.json', 'utf8');
-
-    // Parse the JSON file in order to be able to edit it 
-    var JSONparsed = JSON.parse(JSONfile);
-
-    // Add a new record into game array within the JSON file    
-    JSONparsed.game.push(obj);
-
-    // Beautify the resulting JSON file
-    var JSONformated = JSON.stringify(JSONparsed, null, 4);
-
-    // Write the updated JSON file back to the system 
-    fs.writeFileSync('me.json', JSONformated);
-
-    // Convert the updated JSON file to XML     
-    var XMLformated = js2xmlparser("catalog", JSONformated);
-
-    // Write the resulting XML back to the system
-    fs.writeFileSync('me.xml', XMLformated);
-
-  }
-
-  // Call appendJSON function and pass in body of the current POST request
-  appendJSON(req.body);
-  console.log(req.body);
-  // Re-direct the browser back to the page, where the POST request came from
-  res.redirect('back');
-
-});
-
 
 // CART JSON FILE
 router.post('/cart', function(req, res) {
@@ -148,10 +147,50 @@ router.post('/cart', function(req, res) {
   appendJSON(req.body);
 });
 
-
+// // removeElement from xml and json
+// function removeGameUsingTitle(title) {
+//   /**
+//   * Read in a JSON file
+//   **/
+//   var JSONfile = JSON.parse(fs.readFileSync('me.json', 'utf8'));
+  
+//   var games = JSONfile.catalog.game;
+//   /**
+//   * for splicing array to remove object
+//   *    start is first portion of array
+//   *    end is second portion of array
+//   **/
+//   var start;
+//   var end;
+//   /**
+//   *  new JSON object which contains the new JSON object with the element removed
+//   **/
+//   var newJSON;
+//   /**
+//   *  iterate through each game in the catalog
+//   **/
+//   for(var game in games) {
+//     /** 
+//     * game is of type string need to parse to int
+//     **/
+//     game = parseInt(game);
+//     /**
+//     * check if current game's title matches our search string
+//     **/
+//     if (games[game].title === title) {
+//       delete JSONfile.catalog.game[game];
+//       games.splice(game, 1);
+//     }
+//   }
+//   /**
+// *  uncomment to below line to begin overwriting me.json with new json data 
+//   **/
+//   fs.writeFileSync('me.json', JSON.stringify(JSONfile), 'utf-8');
+// }
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
   var addr = server.address();
   console.log("Server listening at", addr.address + ":" + addr.port);
 });
 
+//removeGameUsingTitle('Harry Potter');

@@ -91,4 +91,18 @@
 		<price>ll</price>
 		<year>ll</year>
 	</game>
+	<game>
+		<title>bb</title>
+		<company>bb</company>
+		<category>bb</category>
+		<price>bb</price>
+		<year>bb</year>
+	</game>
+	<game>
+		<title>ww</title>
+		<company>ee</company>
+		<category>ee</category>
+		<price>ee</price>
+		<year>ee</year>
+	</game>
 </catalog>

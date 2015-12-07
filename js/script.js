@@ -1,4 +1,4 @@
-
+// dispaly content xml into html page
 $( document ).ready(function() {
     
     $.get('/test2', function(data) {
@@ -7,7 +7,7 @@ $( document ).ready(function() {
 
 $(function() {
 
-
+//showing and hidin table me.xml
     $("#click-button").on('click', firstClick)
 
     function firstClick() {

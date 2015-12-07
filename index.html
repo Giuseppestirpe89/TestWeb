@@ -1,6 +1,8 @@
 <?xml-stylesheet type="text/xsl" href="me.xsl" ?>
 	<!DOCTYPE html>
+	<!-- Sam Coogan video as reference bootstrap on youtube-->
 	<html>
+
 	<head>
 		<title> DGS WEB</title>
 		<link rel="shortcut icon" type="image/png" href="favicon.png" />
@@ -10,25 +12,25 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<script>
-    $(document).ready(function() {
-       $.getJSON('/get/json', function(result) {
-        var tr;
-        $.each(result, function(i, field) {
-          tr = $('<tr/>');
-          tr.attr('class', field.games);
-          tr.append('<td>' + field.title + '</td>');
-          tr.append('<td>' + field.company + '</td>');
-          tr.append('<td>' + field.category + '</td>');
-          tr.append('<td>' + field.price + '</td>');
-           tr.append('<td>' + field.year + '</td>');
-          $('me.xml').append(tr);
+			$(document).ready(function() {
+				$.getJSON('/get/json', function(result) {
+					var tr;
+					$.each(result, function(i, field) {
+						tr = $('<tr/>');
+						tr.attr('class', field.games);
+						tr.append('<td>' + field.title + '</td>');
+						tr.append('<td>' + field.company + '</td>');
+						tr.append('<td>' + field.category + '</td>');
+						tr.append('<td>' + field.price + '</td>');
+						tr.append('<td>' + field.year + '</td>');
+						$('me.xml').append(tr);
 
-        });
-      });
-    });
-    
-      </script>
+					});
+				});
+			});
+		</script>
 	</head>
+
 	<body>
 		<div class="navbar-static-top navbar-inverse" id="home">
 			<div class="container">
@@ -50,6 +52,7 @@
 		</div>
 		<div class="jumbotron">
 			<div class="container">
+				<!--http://www.iconarchive.com/search?q=twitter icon images-->
 				<a class="socialIcons" href="http://twitter.com" target="_blank" title="twitter" alt="twitter"><img src='img/tw.png' /></a>
 				<a class="socialIcons" href="http://gmail.com" target="_blank" title="gmail" alt="gmail"><img src='img/gm1.png' /></a>
 				<a class="socialIcons" href="http://facebook.com" target="_blank" title="facebook" alt="facebook"><img src='img/fb1.png' /></a>
@@ -58,7 +61,9 @@
 				<a class="socialIcons2" href="http://youtube.com" target="_blank" title="youtube" alt="youtube"><img src='img/yu1.png' /></a>
 				<h1><br><h1>
 			<h1 style="color: #e3f2fd; font-family:Impact">DGS: your home of Movies,<br> Games and DVDs </h1>
-				<p style="color: #e3f2fd;">Whenever you are at home, abroad <br> or at work, our collection of Movies,<br> Games and DVDs will be with you.</p>
+				<p style="color: #e3f2fd;">Whenever you are at home, abroad
+					<br> or at work, our collection of Movies,
+					<br> Games and DVDs will be with you.</p>
 
 			</div>
 		</div>
@@ -70,54 +75,54 @@
 		<div class="container" id="catalogue">
 			<div class="row padding" id="one">
 				<div class="col-md-6">
- <div class="grayscale" />
+					<div class="grayscale" />
 					<img src="img/1a.jpg" class="img-thumbnail img-responsive" alt="Circular holding image" />
+				</div>
 			</div>
-				</div>
-				<div class="col-md-6">
-					<h2 class="text-center">Games</h2>
-					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-						desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-					<a href="http://www.ncirl.ie" target="_blank" class="btn btn-default1">MORE INFO</a>
-				</div>
+			<div class="col-md-6">
+				<h2 class="text-center">Games</h2>
+				<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+					has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+					publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+				<a href="http://www.ncirl.ie" target="_blank" class="btn btn-default1">MORE INFO</a>
+			</div>
+			<a href="#home">Back to top</a>
+		</div>
+		<hr />
+		<div class="row padding" id="two">
+			<div class="col-md-6">
+				<h2 class="text-center">Movies</h2>
+				<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+					has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+					publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<a href="http://www.ncirl.ie" target="_blank" class="btn btn-default1">MORE INFO</a>
+				<br>
 				<a href="#home">Back to top</a>
 			</div>
-			<hr />
-			<div class="row padding" id="two">
-				<div class="col-md-6">
-					<h2 class="text-center">Movies</h2>
-					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-						desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-					<a href="http://www.ncirl.ie" target="_blank" class="btn btn-default1">MORE INFO</a>
-					<br>
-					<a href="#home">Back to top</a>
-				</div>
 
-				<div class="col-md-6">
-					<div class="grayscale" />
-					<img src="img/2a.png" class="img-thumbnail img-responsive" alt="Circular holding image" />
-					</div>
-				</div>
+			<div class="col-md-6">
+				<div class="grayscale" />
+				<img src="img/2a.png" class="img-thumbnail img-responsive" alt="Circular holding image" />
 			</div>
-			<hr />
-			<div class="row padding" id="three">
-				<div class="col-md-6">
-					<div class="grayscale" />
-					<img src="/img/3a.jpg" class="img-thumbnail img-responsive" alt="Circular holding image" />
-					</div>
-				</div>
-				<div class="col-md-6">
-					<h2 class="text-center">DVDs</h2>
-					<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-						It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-						desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-					<a href="http://www.ncirl.ie" target="_blank" class="btn btn-default1">MORE INFO</a>
-				</div>
-				<a href="#home">Back to top</a>
+		</div>
+		</div>
+		<hr />
+		<div class="row padding" id="three">
+			<div class="col-md-6">
+				<div class="grayscale" />
+				<img src="/img/3a.jpg" class="img-thumbnail img-responsive" alt="Circular holding image" />
 			</div>
-			<hr />
+		</div>
+		<div class="col-md-6">
+			<h2 class="text-center">DVDs</h2>
+			<p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+				has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+				publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+			<a href="http://www.ncirl.ie" target="_blank" class="btn btn-default1">MORE INFO</a>
+		</div>
+		<a href="#home">Back to top</a>
+		</div>
+		<hr />
 		</div>
 		<div class="container padding" id="contact">
 			<form role="form" id="contactForm" data-toggle="validator" class="shake">
@@ -144,21 +149,22 @@
 				<div class="clearfix"></div>
 			</form>
 		</div>
+		<!-- div for table xml-->
 		<div class="target">
 			<div id="innertarget">
-		   <li ng-repeat="user in roster" ng-bind="user">
-          <form method="post" id="form" action="/post/json">
-            <input type="text" name="title">
-            <input type="text" name="company">
-            <input type="text" name="category">
-            <input type="text" name="price">
-            <input type="text" name="year">
-            <input type="submit" value="Submit">
-            
-         <!--add button john remove--> 
-            
-          </form>  
-          </li>
+				<li ng-repeat="user in roster" ng-bind="user">
+					<form method="post" id="form" action="/post/json">
+						<fieldset>
+  						<legend>Insert Movie or Games:</legend>
+						Title: <input type="text" name="title" >
+						Company: <input type="text" name="company">
+						Category: <input type="text" name="category">
+						Price: <input type="text" name="price">
+						Year: <input type="text" name="year">
+						<input type="submit" value="Submit">
+						</fieldset>
+					</form>
+				</li>
 			</div>
 			</br>
 			<input type="submit" value="Load" id="click-button" class="btn btn-danger" />
@@ -180,6 +186,8 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.js"></script>
+
+		<!-- https://css-tricks.com/snippets/jquery/smooth-scrolling/-->
 		<script>
 			$(function() {
 				$('a[href*=#]:not([href=#])').click(function() {
@@ -197,4 +205,5 @@
 			});
 		</script>
 	</body>
+
 	</html>

@@ -1,10 +1,11 @@
+/*jumbotron bootstrap */
 .jumbotron {
     background-image: url('../img/bg2.jpg');
     background-attachment: fixed;
     min-height: 500px;
     margin-bottom: 0px;
 }
-
+/*index.html*/
 .alt1 {
     background: #eee;
     min-height: 350px;
@@ -22,6 +23,7 @@
     padding-bottom: 20px;
 }
 
+/* footer, header social icons effects */
 .socialIcons {
     height: 48px;
     width: 48px;
@@ -73,14 +75,17 @@
     box-shadow: 6px 6px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* div for table xml */
 #innertarget {
     margin-left: 105px;
 }
 
+/* button style */
 .btn-danger {
     margin-left: 65px;
 }
 
+/* xml table width */
 .table {
     width: 85%;
 }
@@ -131,9 +136,7 @@
     background: #F5F5F5 url(../images/top_bg.gif);
 }
 
-
 /* Cart Styles */
-
 .scMain .scCartHeader {
     display: block;
     position: relative;
@@ -260,7 +263,6 @@
 
 
 /* Product List Styles */
-
 .scMain .scSearchPanel {
     display: block;
     position: relative;
@@ -659,10 +661,10 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
+/*cart style ends*/
 
 
 /*  TOOLTIP CSS */
-
 .tooltip {
     position: absolute;
     z-index: 999;
@@ -724,12 +726,7 @@
     top: 1px;
 }
 
-
-/*  underconstr page */
-
-
-/* Reset */
-
+/*  coming soon page */
 div#shim {
     visibility: hidden;
     width: 100%;
@@ -747,24 +744,7 @@ div#content {
     top: -250px;
     /* IE4ever Hack: Hide from IE4 **/
     position: static;
-    /** end hack */
 }
-
-
-/* Hide from IE5mac \*/
-
-
-/*/
-div#shim {
-display: none;
-}
-html, body {
-height: auto;
-}
-/* end hack */
-
-
-/* ]]> */
 
 .watch {
     width: 384px;
@@ -811,46 +791,6 @@ ul.social {
     margin-bottom: 20px;
 }
 
-ul.social li {
-    margin-right: 25px;
-    float: left;
-}
-
-ul.social li a {
-    background: url(../img/social.png) left top no-repeat;
-    width: 48px;
-    height: 60px;
-    float: left;
-}
-
-ul.social li a.fb {
-    background-position: 0 0;
-}
-
-ul.social li a:hover.fb {
-    background-position: 0 -60px;
-}
-
-ul.social li a.tw {
-    background-position: -73px 0;
-}
-
-ul.social li a:hover.tw {
-    background-position: -73px -60px;
-}
-
-ul.social li a.li {
-    background-position: -146px 0;
-}
-
-ul.social li a:hover.li {
-    background-position: -146px -60px;
-}
-
-ul.info {
-    width: 526px;
-    float: left;
-}
 
 ul.info li {
     float: left;
@@ -862,17 +802,6 @@ ul.info li {
     color: #4d4d4d;
 }
 
-.grayscale{ 
-  
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
-    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
-}
-
-.grayscale:hover { 
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
 ul.info li a {
     color: #4d4d4d;
 }
@@ -890,4 +819,18 @@ ul.info li.ad {
 ul.info li.mail {
     background: url(../img/icons.png) left -107px no-repeat;
     padding-top: 25px;
+}
+/*coming soon ends */
+
+/* grayscale effect for picture in index.html */
+.grayscale { 
+  
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
 }
