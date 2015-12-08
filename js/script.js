@@ -7,19 +7,15 @@ $( document ).ready(function() {
     
     // ref: http://stackoverflow.com/questions/18847432/zoom-body-browser
     $('#big').click(function() {
-  
       window.parent.document.body.style.zoom = +1.1;
-
     });
+    
     $('#med').click(function() {
-       
         window.parent.document.body.style.zoom = +1;
-       
     });
+    
     $('#small').click(function() {
-       
         window.parent.document.body.style.zoom = +0.8;
-       
     });
 
 $(function() {
