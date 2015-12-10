@@ -84,26 +84,6 @@
             "price": "64.99",
             "year": "2014"
         },
-        {
-            "title": "ll",
-            "company": "ll",
-            "category": "ll",
-            "price": "ll",
-            "year": "ll"
-        },
-        {
-            "title": "bb",
-            "company": "bb",
-            "category": "bb",
-            "price": "bb",
-            "year": "bb"
-        },
-        {
-            "title": "ww",
-            "company": "ee",
-            "category": "ee",
-            "price": "ee",
-            "year": "ee"
-        }
+       
     ]
 }

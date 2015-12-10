@@ -20,7 +20,7 @@ $( document ).ready(function() {
 
 $(function() {
 
-//showing and hidin table me.xml
+//showing and hiding table me.xml
     $("#click-button").on('click', firstClick)
 
     function firstClick() {

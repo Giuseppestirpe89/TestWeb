@@ -5,6 +5,7 @@
     min-height: 500px;
     margin-bottom: 0px;
 }
+
 /*index.html*/
 .alt1 {
     background: #eee;
@@ -49,7 +50,7 @@
 .socialIcons2 {
     height: 48px;
     width: 48px;
-    margin-top: 10px;
+    margin-top: 3px;
     float: right;
     -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
@@ -840,7 +841,7 @@ ul.info li.mail {
 	border-radius: 100%;
 	cursor: pointer;
 	position: relative;
-	margin-left: -5%;
+	margin-left: -1%;
 	width: 5em; 
 	height: 5em;
 	overflow: hidden;
