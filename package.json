@@ -6,12 +6,12 @@
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
     "async": "~0.2.8",
-
-    "express": "~3.2.4",
+    "express": "~3.2.6",
     "feed": "^0.2.6",
     "fs": "0.0.2",
     "js2xmlparser": "~1.0.0",
     "node_xslt": "~0.1.9",
-    "socket.io": "~0.9.14"
+    "socket.io": "~0.9.14",
+    "body-parser": "~1.14.1"
   }
 }
